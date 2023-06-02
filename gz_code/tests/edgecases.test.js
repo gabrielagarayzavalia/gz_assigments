@@ -1,6 +1,6 @@
 import pkg from '@jest/globals';
 import  { app } from '../api/app'
-const {expect, test} = pkg;
+const { test} = pkg;
 
 const request = require('supertest');
 const assert = require('assert');
